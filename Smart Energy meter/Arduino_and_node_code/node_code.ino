@@ -2,12 +2,12 @@
 #include <EEPROM.h>
 #include "Adafruit_MQTT.h"
 #include "Adafruit_MQTT_Client.h"
-#define WLAN_SSID       "redmi"
-#define WLAN_PASS       "mnbvcxzl"
+#define WLAN_SSID       ""//your ssid
+#define WLAN_PASS       ""//your wifi password
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883                   
-#define AIO_USERNAME    "gokulakrishnan"
-#define AIO_KEY         "112618e7fe8b47f5a61405d7c5ded1b4"
+#define AIO_USERNAME    ""//username
+#define AIO_KEY         ""//aio key
 
 WiFiClient client;
   //pin declaration
